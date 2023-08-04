@@ -1,13 +1,9 @@
 import os
 import time
 from replit import db
-
-
 from embedchain import App
 
 chat_with_web_app = App()
-
-import os
 
 file_list = os.listdir("docs")
 
