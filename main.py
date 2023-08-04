@@ -16,7 +16,6 @@ for filename in file_list:
   else:
     print("File already loaded: " + filename)
 
-
 while True:
   os.system("clear")
   input_query = input("\nAsk your question: ")
